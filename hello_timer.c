@@ -13,7 +13,7 @@ static struct timer_list my_timer;
 static struct kobject *mytimer_kobject;
 static int delay = 1;
 
-   
+    
 static void print_hello(unsigned long data)
 {
 	printk(KERN_INFO "Hello, timer!\n");
