@@ -12,7 +12,7 @@ MODULE_VERSION("0.01");
 static struct timer_list my_timer;
 static struct kobject *mytimer_kobject;
 static int delay = 1;
-
+ 
      
 static void print_hello(unsigned long data)
 {
