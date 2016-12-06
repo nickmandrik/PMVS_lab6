@@ -5,7 +5,7 @@ else
 
 PWD:=$(shell pwd)
 
-default: 
+all: 
 	$(MAKE) -C $(KERNELDIR) M=$(PWD) modules
 endif 
 clean:
